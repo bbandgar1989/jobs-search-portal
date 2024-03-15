@@ -5,7 +5,7 @@
     <div class="jobmainContainer" *ngFor="let data of FinalFabList" (click)="navigateToDetailJob(data)" >
         <div class="Wrapperleftright">
             <div class="left-wrapper">
-                <span class="logo"> {{data.companyLogo}}</span>              
+                <span class="logo"> <img [src]="data.companyLogo" /></span>              
             </div>
             <div class="right-wrapper">
                 <div class="title"> {{data.title}}</div>
