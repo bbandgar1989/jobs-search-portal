@@ -1,0 +1,54 @@
+.nav {
+    display: inline-block
+}
+
+.nav-item {
+    display: inline-block;
+    width: 450px;
+    background-color: #cfcfcf;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item1 {
+    display: inline-block;
+    width: 450px;
+    background-color: #cacaca;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+section,
+nav {
+    text-align: center;
+}
+
+main {
+    float: left;
+    padding: 0 0 0 30px;
+}
+
+ul {
+    padding: 0;
+}
+
+
+/* li.nav-item:active,
+li.nav-item1:active {
+    background: red;
+} */
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* li.nav-item :active,li.nav-item1 :active{
+    color: red;
+} */
+.active{ 
+    background: darkblue;
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+}

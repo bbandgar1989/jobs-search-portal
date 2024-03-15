@@ -1,0 +1,23 @@
+<div class="backtoHome" (click)="navigateHomeJob()"><i class="fa fa-home" aria-hidden="true"></i>{{title}}</div>
+<div class="jobDetailspagwrapper">
+    <div class="titlewrapper">
+        <div class="desLogoAndTitle">
+            <span class="logo">{{jobDetailsList.companyLogo}}</span>
+            <span class="title">{{jobDetailsList.title}}</span>
+        </div>
+        <div class="fullpartwrapper">
+            <span class="jobType">{{jobDetailsList.types}}</span>
+            <span class="HrType">{{jobDetailsList.industries}}</span>
+
+        </div>
+    </div>
+    <div class="jobDetailsBodywrapper">
+        <div class="publisedDate"><label class="comman">Publish Date:</label>{{jobDetailsList.publishDate}}</div>
+        <div class="location"><label class="comman">Location:</label>{{jobDetailsList.location}}</div>
+        <div class="reference"><label class="comman">Reference:</label>{{jobDetailsList.reference}}</div>
+        <div class="descirption">
+            <label class="commanDesc">Descirption:</label><br>
+            <div [innerHtml]="jobDetailsList.description">{{jobDetailsList.description}}</div>
+        </div>
+
+    </div>

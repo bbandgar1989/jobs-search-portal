@@ -1,0 +1,23 @@
+<div class="jobwrapper">
+    <div class="jobmainContainer" *ngFor="let data of jobModelList" >
+        <div class="Wrapperleftright" (click)="navigateToDetailJob(data)">
+            <div class="left-wrapper">
+                <span class="logo"> {{data.companyLogo}}</span>                
+            </div>
+            <div class="right-wrapper">
+                <div class="title"> {{data.title}}</div>
+                <div class="company-title-refrence">
+                    <span><label>Company:-</label>{{data.companyName}}</span>
+                    <span class="reference"><label>Reference:-</label>{{data.reference}}</span>
+                </div>
+            </div>
+        </div>
+      
+        <div class="icon-star"  (click)="addRemoveJobsToFavList(data.id)" >
+            <div id="star-{{data.id}}" [ngClass]="{'active' : setFavClass(data.id)}">
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+
+</div>

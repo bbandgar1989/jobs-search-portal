@@ -1,0 +1,22 @@
+<div class="ifNotData" *ngIf="FinalFabList?.length === 0">
+<b>{{message}}</b>
+</div>
+<div class="jobwrapper">
+    <div class="jobmainContainer" *ngFor="let data of FinalFabList" (click)="navigateToDetailJob(data)" >
+        <div class="Wrapperleftright">
+            <div class="left-wrapper">
+                <span class="logo"> {{data.companyLogo}}</span>              
+            </div>
+            <div class="right-wrapper">
+                <div class="title"> {{data.title}}</div>
+                <div class="company-title-refrence">
+                    <span><label>Company:-</label>{{data.companyName}}</span>
+                    <span class="reference"><label>Reference:-</label>{{data.reference}}</span>
+                </div>
+            </div>
+        </div>
+      
+        
+    </div>
+
+</div>

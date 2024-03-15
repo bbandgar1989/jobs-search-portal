@@ -1,0 +1,19 @@
+<body>
+    <div class="app">
+        <header>
+            <section>
+                <h1>{{ title }}</h1>
+            </section>
+           <nav>
+                <ul class="nav">
+                    <li class="nav-item"> <a routerLink="/jobs" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Jobs</a></li>
+                    <li class="nav-item"> <a routerLink="/favorites" routerLinkActive="active">Favorites</a></li>
+                </ul>
+            </nav>
+           
+        </header>
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</body>

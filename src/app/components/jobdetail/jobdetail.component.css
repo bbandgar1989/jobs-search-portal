@@ -1,0 +1,74 @@
+body {
+    color: #000;
+}
+
+.comman {
+    font-weight: bold;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.jobDetailspagwrapper {
+    float: left;
+    clear: both;
+}
+
+.backtoHome {
+    float: left;
+    clear: both;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+}
+
+.desLogoAndTitle {
+    float: left;
+    font-size: 25px;
+}
+
+.jobType
+{
+    width: 100px;
+    height: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    margin:0 20px 0 0;
+    display: inline-block;
+    text-align: center;
+}
+.HrType {
+    width: 200px;
+    height: 20px;
+    background-color:skyblue;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.fullpartwrapper {
+    float: left;
+    clear: both;
+    margin: 0 0 20px 100px;
+    
+}
+
+span.title {
+    margin: 0 0 0 15px;
+}
+
+.publisedDate,
+.location,
+.reference,
+.descirption {
+    float: left;
+    margin: 0 0 10px 0;
+    clear: both;
+}
+.commanDesc{
+    float: left;
+    font-weight: bold;
+}

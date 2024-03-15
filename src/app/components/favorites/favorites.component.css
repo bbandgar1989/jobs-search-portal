@@ -1,0 +1,60 @@
+.logo {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cacaca;
+    display: inline-block;
+    float: left;
+}
+
+.right-wrapper {
+    float: left;
+    margin-left: 20px;
+}
+
+.left-wrapper {
+    float: left
+}
+
+.reference {
+    margin-left: 30px
+}
+
+.Rightstaricon {
+    float: right;
+    margin: 10px 0 0 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.jobwrapper {
+    float: left;
+    clear: both;
+    margin: 0 0 15px 0;
+}
+
+.title {
+    float: left;
+    margin: 0 0 5px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.company-title-refrence {
+    float: left;
+    clear: both;
+    margin: 0 0 0 10px;
+}
+
+.Wrapperleftright {
+    float: left;
+    margin: 0 0 20px 0;
+}
+.yellow{
+    background-color:yellow;
+}
+.white{
+    background-color:white;
+}
